@@ -21,6 +21,21 @@
     margin-left: 450px;
 }
 
+
+.btn {
+    background-color: rgb(255, 47, 0);
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: 20px;
+}
+.btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 li {
     display: inline-block;
     color: rgb(252, 254, 255);
@@ -30,14 +45,6 @@ li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.btn{
-    padding: 5px 30px;
-    margin-left: 30px;
-    border-radius: 50px;
-    background-color: rgb(255, 47, 0);
-    color: aliceblue;
-    
-}
 
 li:hover {
     color: rgb(255, 47, 0);
@@ -58,29 +65,42 @@ li:hover {
     background-image: url("/images/background.png"), linear-gradient(45deg, #101010,#323232);
 }
 
-h1 {
-    font-size: 45px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    color: #101010;
+.head-line {
+    font-size: 60px;
+    color: aliceblue;
+    text-align: left;
+    margin-bottom: 15px;
 }
 p {
     margin-bottom: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.btn {
-    padding: 5px 30px;
-    margin-left: 30px;
-    border-radius: 50px;
+.btn-top {
     background-color: rgb(255, 47, 0);
-    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 50px;
     border: none;
+    color: aliceblue;
     cursor: pointer;
+}
+
+.btn-top:hover {
+    background-color: #ffffff;
+    color: #101010;
 }
 
 .btn:hover {
     color: rgb(7, 125, 228);
+    bac
+}
+
+
+/* This is about Section */
+
+.h1-about {
+
+    
 }
 
 .about-container {
@@ -89,13 +109,25 @@ p {
     flex-direction: row-reverse;
 }
 
-#about-us {
+.about-us {
     text-align: center;
     margin: 30px;
+    color: #000000;
+    font-size: 50px;
 }
 
 .about-info {
     margin-left: 200px;
+    display:inline-block;
+}
+
+.h1-about {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .about-photo {
@@ -106,7 +138,7 @@ p {
 /* This is a Our servish sectiomn  */
 
 .box {
-    width: 250px;
+    width: 200px;
     height: 300px;
     background-color: black;
     text-align: center;
@@ -120,19 +152,36 @@ p {
     display: flex;
     justify-content: space-around;
     padding: 20px;
-
 }
+.service-logo{
+    padding: 15px;
+    width: 75px;
+}
+
+.service-text {
+    font-size: 14px;
+    text-align: justify;
+    padding: 0 5px 0 5px;
+}
+
+.sevice {
+    background-color: rgb(255, 47, 0);
+    padding: 3px 15px;
+    border-radius: 50px;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.sevice:hover{
+    background-color: #ffffff;
+    color: #101010;
+}
+
 
 .section-3 {
     background-color: rgb(30, 31, 31);
-    height: 500px;
-}
-
-h1{
-    text-align: center;
-    text-transform: none;
-    font-weight: bolder;
-    color: aliceblue;
+    height: 550px;
+    background-image: url(/images/background.png);
 }
 
 .h1 {
@@ -141,6 +190,11 @@ h1{
     text-align: center;
     font-weight: 800;
     padding: 25px;
+
+}
+
+h2 {
+    padding-bottom: 10px;
 }
 
 /* This is footer Section */
@@ -175,6 +229,7 @@ h4 {
 hr {
  margin-left: 100px;
  margin-right: 100px;
+ bro
 
 }
 .foot0,hr{
