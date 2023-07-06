@@ -48,7 +48,6 @@ li:hover {
 /* This is a main first bannedr sectiomn  */
 
 
-
 .banner-container {
     display: flex;
     justify-content: space-around;
@@ -142,4 +141,42 @@ h1{
     text-align: center;
     font-weight: 800;
     padding: 25px;
+}
+
+/* This is footer Section */
+
+.end-section{
+    height: 400px;
+    background-color: #323232;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h4 {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.foot-logo {
+    padding-bottom: 15px;
+}
+
+.foot0 {
+    text-align: center;
+    height: 50px;
+    background-color: #323232;
+    color:aliceblue
+}
+.foot-text {
+    margin: 20px;
+}
+hr {
+ margin-left: 100px;
+ margin-right: 100px;
+
+}
+.foot0,hr{
+    align-items: center;
 }
