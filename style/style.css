@@ -5,20 +5,32 @@
 
 .container{
     display: flex;
-    height: 60px;
-    width: auto;
-    background-color: rgb(75, 75, 75);
-
+    justify-content: space-around;
     align-items: center;
+    height: 60px;
+    background-color: rgb(75, 75, 75);
+    color: #ffffff;
 }
+
 .logo {
     width: auto;
     height: 30px;
-    margin-left: 100px; 
 }
 
-.home {
-    margin-left: 450px;
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin: 30px;
+    font-size: larger;
+    cursor: pointer;
+
+}
+
+li:hover {
+    color: rgb(255, 0, 0);
 }
 
 
@@ -29,25 +41,11 @@
     border: none;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    margin-left: 20px;
-}
-.btn:hover {
+    margin-left: 30px;
+} 
+ .btn:hover {
     background-color: #ffffff;
     color: #000000;
-}
-
-li {
-    display: inline-block;
-    color: rgb(252, 254, 255);
-    margin: 20px;
-    font-size: 18px;
-    cursor: pointer;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-
-li:hover {
-    color: rgb(255, 47, 0);
 }
 
 
@@ -92,16 +90,11 @@ p {
 
 .btn:hover {
     color: rgb(7, 125, 228);
-    bac
 }
 
 
 /* This is about Section */
 
-.h1-about {
-
-    
-}
 
 .about-container {
     display: flex;
@@ -197,6 +190,62 @@ h2 {
     padding-bottom: 10px;
 }
 
+/* This is OTHER Section */
+
+.section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    background-color: #625b5b;
+    color: #ffffff;
+    background-image: url(/images/gif\ tech.gif);
+    
+    
+}
+
+.My-section {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    background-color: #625b5b;
+    /* border-bottom: 5px solid rgb(152, 150, 150); */
+    color: #ffffff;
+    
+
+}
+
+.my-photo {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+
+
+.btn3 {
+    background-color: rgb(255, 47, 0);
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.btn3:hover {
+    background-color: #ffffff;
+    color: #101010;
+}
+
+.my-ditiles {
+    font-size: 15px
+}
+
+
+.Service-name {
+    text-shadow: 2px 2px 10px #ff0404;
+}
+
+
 /* This is footer Section */
 
 .end-section{
@@ -206,6 +255,8 @@ h2 {
     color: aliceblue;
     justify-content: space-around;
     align-items: center;
+    /* background-image: url(/images/gif\ tech.gif); */
+    /* filter: blur(2px); */
 }
 
 h4 {
@@ -226,12 +277,14 @@ h4 {
 .foot-text {
     margin: 20px;
 }
+
 hr {
  margin-left: 100px;
  margin-right: 100px;
- bro
-
+ border: 0.25px solid rgb(143, 142, 142);
 }
+
 .foot0,hr{
     align-items: center;
 }
+
